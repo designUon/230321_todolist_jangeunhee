@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular';
+}
+
+ul, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+#wrap{
+    width: 300px;
+    background-color: darkolivegreen;
+    margin: 100px auto;
+    padding: 70px;
+    border-radius: 200px;
+}
+
+#clock{
+    font-family: 'Pretendard-Regular';
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    /* color: cornsilk; */
+    text-shadow: -1px 0 cornsilk, 0 1px cornsilk, 1px 0 cornsilk, 0 -1px cornsilk;
+    mix-blend-mode: screen;
+}
+
+#todoform{
+    margin: 20px 0;
+}
+
+#todoform input[type="text"]{
+    font-size: 16px;
+    outline: none;
+    color: cornsilk;
+    width: 260px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid cornsilk;
+}
+
+#todoform input::placeholder{
+    color: cornsilk;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+#todoform input[type="submit"]{
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 20px;
+    border: 0;
+}
+
+#todoform input[type="submit"]:hover{
+    background-color: cornsilk;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+
+/* #result{
+    width: 97%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#result li{
+    float: left;
+    line-height: 30px;
+    color: cornsilk;
+    font-size: 20px;
+    margin-right: 10px;
+} */
+
+#result{
+    font-size: 18px;
+    color: cornsilk;
+}
+
+
+
+
+#todolist{
+    margin-top: 30px;
+}
+
+#todolist li{
+    width: 97%;
+    height: 25px;
+    margin: 20px 0;
+    color: cornsilk;
+    position: relative;
+    border-bottom: 1px solid cornsilk;
+}
+
+#todolist input[type="checkbox"]{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    appearance: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid cornsilk;
+}
+
+#todolist input[type="checkbox"]:checked{
+    accent-color: greenyellow;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+#todolist button{
+    width: 15px;
+    height: 15px;
+    font-size: 5px;
+    /* align-content: center; */
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-color: transparent;
+    border: 1px solid cornsilk;
+    color: cornsilk;
+    right: 0;
+}
+
+#todolist button:hover{
+    background-color: greenyellow;
+    color: darkolivegreen;
+    border: darkolivegreen;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
